@@ -1,0 +1,12 @@
+---
+applications:
+- name: my_hello_app_1
+  instances: 1
+  memory: 1G
+  disk-quota: 1G
+  command: python main.py
+  buildpacks:
+    - python_buildpack
+  services:
+  - my_xsuaa_1  # Binding the xsuaa services that we created. The same name is used in `main.py` as well
+ 
