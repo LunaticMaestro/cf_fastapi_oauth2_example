@@ -8,6 +8,10 @@ Keywords: Python, Cloud Foundry, FastAPI, Dependency Injection
 
 ![screenshot](.resources/front_preview.png)
 
+## Update
+
+- For bigger project management (i.e. scaling across multiple *paths* for the server) refer to the article: https://fastapi.tiangolo.com/tutorial/bigger-applications/ which does nothing more than adding Dependency at the object level of flask app.
+
 ## Pre-requiste
 - Technical complexity: Intermediate
 - Have CF CLI installed. See install instruction [here](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
