@@ -73,7 +73,6 @@ def get_health():
     '''Checks if this whole application is reachable'''
     return {"status": "ok"}
 
-@app.get
 
 @app.get("/data_read")
 def data_read(
